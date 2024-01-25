@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 300px;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 506px;
+    height: 506px;
+    padding: 0px;
+    margin: auto;
+    border-width: 3px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.square {
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    background-color: cornsilk;
+}
